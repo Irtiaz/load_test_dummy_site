@@ -6,6 +6,9 @@ app.get('/', (req, res) => {
   res.send(`
     <form>
     Username <input>
+    <br>
+    Password <input>
+    <br>
     <button type='submit'>Register</button>
     </form>
   `);
